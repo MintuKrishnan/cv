@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h2>My Contact Details</h2>
+  <p>mintu.krish999@hotmail.com</p>
+  <p>7736284498</p>
+  <p>Bhavani Mandiram</p>
+  <p>Pullichira P O </p>
+  <p>Kollam - 691304</p>
+  <hr>
+
+
+  <!--
+
+FORMS (simple type)
+
+<form>
+<label> name </label>       -- displays name in the page
+<input type="text">
+<input type="submit">
+<input type="File">
+<input type="Date">
+<input type="color">
+<input type="radio">
+<input type="range">
+<input type="button">
+<input type="checkbox">
+  </form>
+-->
+
+  <h2>Request a Callback</h2>
+  <form action="mailto:mintu.krish999@gmail.com" method="post" enctype="text/plain">
+    <!-- when pressed 'submit' which is a button that created at the end of the form,
+     the action of the form class in the beginning starts working
+action - shows what action to be done
+enctype - shows encoding as text so that it make the content readable - here we use plain text for reading
+
+   -->
+    <label> Name: </label>
+    <input type="text" name="" value="">
+
+    <!--
+    input values to the 'name' so that we can differentiate when sending mail by labelling each content
+  -->
+    <br><br>
+    <label>Email:</label>
+    <input type="email" name="Customer Email" value="">
+    <br><br>
+    <label for="">Select favourite color</label>
+    <input type="color" name="Customer fav Color" value="">
+    <br><br>
+    <label for="">Gender</label>
+    <input type="radio" name="Gender" value="Male">
+    <label for="">male</label>
+    <input type="radio" name="Gender" value="Female">
+    <label for="">female</label>
+    <br><br>
+    <label for="">Date of Birth</label>
+    <input type="date" name="Date of Birth" value="">
+    <br><br>
+    <label for="">Select File</label>
+    <input type="file" name="image" value="">
+    <br><br>
+    <label for="">Enter your password</label>
+    <input type="password" name="password" value="">
+    <br><br>
+    <label for="">
+      <i>
+        <a href="terms.html">
+          Terms and Conditions
+        </a>
+      </i>
+    </label>
+    <input type="checkbox" name="checkbox" value="selected">
+    <br><br>
+    <input type="submit" name="">
+    <a href="16.nested_table.html">back</a>
+
+  </form>
+</body>
+
+</html>
